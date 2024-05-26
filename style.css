@@ -116,3 +116,17 @@ form section {
 .mcq-box > .mcq {
   margin-top: 6px;
 }
+
+textarea {
+  height: 50px;
+  width: 100%;
+  display: block;
+}
+
+.text-area {
+  margin-top: 5px;
+}
+.text-area label {
+  font-size: 16px;
+  font-weight: 500;
+}
