@@ -34,12 +34,12 @@ body {
 
 .container p {
   text-transform: capitalize;
-  font-size: 14px;
+  font-size: 13px;
   margin-bottom: 10px;
 }
 
 form {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -48,11 +48,15 @@ form {
 
 form section {
   width: 400px;
-  border: 2px solid rgb(111, 255, 0);
+  /* border: 2px solid rgb(111, 255, 0); */
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
   padding-top: 6px;
+}
+
+section label {
+  font-size: 13px;
 }
 
 .input-container {
@@ -90,12 +94,12 @@ form section {
 
 .box h1 {
   position: absolute;
-  top: -15px;
+  top: -13px;
   left: 5px;
   background-color: rgb(255, 255, 255);
   color: black;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .box .radio-container {
@@ -109,7 +113,7 @@ form section {
 }
 
 .mcq-box > h1 {
-  font-size: 16px;
+  font-size: 13px;
   color: black;
 }
 
@@ -127,6 +131,14 @@ textarea {
   margin-top: 5px;
 }
 .text-area label {
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 500;
+}
+
+button {
+  padding: 5px 8px;
+  background-color: rgb(0, 177, 0);
+  border: 0;
+  color: whitesmoke;
+  margin-top: 20px;
 }
