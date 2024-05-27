@@ -25,6 +25,8 @@ body {
   background-color: white;
   border-radius: 16px;
   padding: 5px 15px;
+  overflow: hidden;
+  overflow-y: auto;
 }
 
 .container h1 {
